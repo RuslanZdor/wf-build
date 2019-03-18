@@ -1,7 +1,12 @@
 package com.bmo.usaml.template;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.maven.project.MavenProject;
 
+/**
+ * This class generate source code from template wf-package-template.xml
+ * name format include library name with version
+ */
 public class LibraryTemplate extends MasterLibraryTemplate {
 
     public LibraryTemplate() {
@@ -13,6 +18,12 @@ public class LibraryTemplate extends MasterLibraryTemplate {
      * @return combined name
      */
     public String buildFileName(MavenProject project) {
+        if (StringUtils.isBlank(project.getName())) {
+            throw new IllegalArgumentException("Project name is required in pom.xml to library");
+        }
+        if (StringUtils.isBlank(project.getVersion())) {
+            throw new IllegalArgumentException("Project version is required in pom.xml to library");
+        }
         return String.format("%s-%s.xml", project.getName(), project.getVersion());
     }
 

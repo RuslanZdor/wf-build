@@ -47,7 +47,7 @@ public class BuildWFBotConfiguration extends AbstractMojo {
 
     private List<AbstractTemplate> templates = new ArrayList<>();
 
-    public void init() {
+    private void init() {
         if (!skipMasterBuild) {
             templates.add(new MasterLibraryTemplate());
             templates.add(new MasterPackageTemplate());
