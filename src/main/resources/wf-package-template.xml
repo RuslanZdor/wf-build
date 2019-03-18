@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="yes"?>
+<objectListWrapper>
+    <objects>
+        <objectContainer>
+            <machineConfig>
+                <answers/>
+                <description></description>
+                <includedConfigs/>
+                <inclusionCode></inclusionCode>
+                <name></name>
+                <jsonParams>{"configXMLModified":"true"}</jsonParams>
+                <content></content>
+                <machineWorkSetting>
+                    <category>
+                        <automation>false</automation>
+                        <description></description>
+                        <enabled>true</enabled>
+                        <executingType>MACHINE</executingType>
+                        <name>Other</name>
+                        <private>false</private>
+                        <publicId>dd92f240-144b-4fef-8476-4ec0acbc1105</publicId>
+                    </category>
+                    <contentType>BLANK</contentType>
+                    <description></description>
+                    <enabled>true</enabled>
+                    <name>Miscellaneous Tasks</name>
+                    <publicId>26e6e095-00bb-43fa-8c34-af0b18e71ac9</publicId>
+                    <version>
+                        <componentUuid>26e6e095-00bb-43fa-8c34-af0b18e71ac9</componentUuid>
+                        <incrementalVersion>1.0</incrementalVersion>
+                        <lastInChain>true</lastInChain>
+                        <lastModified>2018-08-07T07:01:44Z</lastModified>
+                        <versionUuid>26e6e095-00bb-43fa-8c34-af0b18e71ac9</versionUuid>
+                    </version>
+                    <answers/>
+                    <machineWorkSettingType>BASIC</machineWorkSettingType>
+                    <template>
+                        <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+                            &lt;config charset="UTF-8"&gt;
+                            &lt;export include-original-data="true"&gt;
+                            &lt;/export&gt;
+                            &lt;/config&gt;</content>
+                        <name>Blank</name>
+                        <origination>CREATED_MANUALLY</origination>
+                        <status>ACTIVE</status>
+                        <type>BASE_MACHINE</type>
+                        <uuid>8f04bd99-7f51-4796-a528-d1a7c9ccfbc4</uuid>
+                        <version>
+                            <componentUuid>8f04bd99-7f51-4796-a528-d1a7c9ccfbc4</componentUuid>
+                            <incrementalVersion>1.0</incrementalVersion>
+                            <lastInChain>true</lastInChain>
+                            <lastModified>2012-12-27T00:00:00Z</lastModified>
+                            <versionUuid>8f04bd99-7f51-4796-a528-d1a7c9ccfbc4</versionUuid>
+                        </version>
+                    </template>
+                </machineWorkSetting>
+                <machineWorkSettingType>BASIC</machineWorkSettingType>
+                <machineConfigOptions/>
+                <source>
+                    <availability></availability>
+                    <deleted>false</deleted>
+                    <description>1 thread only</description>
+                    <equallyDistributeLoad>false</equallyDistributeLoad>
+                    <name>1 thread only</name>
+                    <prioritizeEarlierRuns>false</prioritizeEarlierRuns>
+                    <proxySettings>
+                        <password></password>
+                        <server></server>
+                        <username></username>
+                        <validationEnabled>true</validationEnabled>
+                    </proxySettings>
+                    <threadCount>1</threadCount>
+                    <threadsPerNode>false</threadsPerNode>
+                    <timeZone>GMT</timeZone>
+                    <tps>0</tps>
+                    <url></url>
+                    <version>
+                        <componentUuid>40ce45d6-817f-4b25-8bf8-93fde113a1f6</componentUuid>
+                        <incrementalVersion>1.1</incrementalVersion>
+                        <lastInChain>true</lastInChain>
+                        <lastModified>2019-02-18T11:57:24Z</lastModified>
+                        <versionUuid>1636b429-39de-41d9-b6ed-74a29ed97fe9</versionUuid>
+                    </version>
+                </source>
+                <sourceType>MANUAL</sourceType>
+                <template>
+                    <content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+                        &lt;config charset="UTF-8"&gt;
+                        &lt;export include-original-data="true"&gt;
+                        &lt;/export&gt;
+                        &lt;/config&gt;</content>
+                    <name>Blank</name>
+                    <origination>CREATED_MANUALLY</origination>
+                    <status>ACTIVE</status>
+                    <type>BASE_MACHINE</type>
+                    <uuid>8f04bd99-7f51-4796-a528-d1a7c9ccfbc4</uuid>
+                    <version>
+                        <componentUuid>8f04bd99-7f51-4796-a528-d1a7c9ccfbc4</componentUuid>
+                        <incrementalVersion>1.0</incrementalVersion>
+                        <lastInChain>true</lastInChain>
+                        <lastModified>2012-12-27T00:00:00Z</lastModified>
+                        <versionUuid>8f04bd99-7f51-4796-a528-d1a7c9ccfbc4</versionUuid>
+                    </version>
+                </template>
+                <uuid>ff815b2e-fe87-4b5e-a0cf-faf7f3ffd285</uuid>
+                <version>
+                    <componentUuid>0750fca2-41fd-4ab4-9e5b-09aadc7b651f</componentUuid>
+                    <incrementalVersion></incrementalVersion>
+                    <lastInChain>true</lastInChain>
+                    <lastModified></lastModified>
+                    <versionUuid>c306143d-eb3d-4af3-89e0-158a7e0368e0</versionUuid>
+                </version>
+            </machineConfig>
+            <hashCode></hashCode>
+        </objectContainer>
+    </objects>
+</objectListWrapper>
